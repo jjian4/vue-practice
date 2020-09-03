@@ -2,21 +2,23 @@
   <div id="app">
     <AppHeader />
     <Home />
-    <Menu />
+    <Admin />
   </div>
 </template>
 
 <script>
 import AppHeader from "./components/Header";
 import Home from "./components/Home";
-import Menu from "./components/Menu";
+// import Menu from "./components/Menu";
+import Admin from "./components/Admin";
 
 export default {
   name: "App",
   components: {
     AppHeader,
     Home,
-    Menu,
+    // Menu,
+    Admin,
   },
 };
 </script>
