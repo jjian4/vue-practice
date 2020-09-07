@@ -1,27 +1,19 @@
 <template>
-  <div id="app">
-    <AppHeader />
-    <Home />
-    <Admin />
-  </div>
+    <div id="app">
+        <AppHeader />
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
-import AppHeader from "./components/Header";
-import Home from "./components/Home";
-// import Menu from "./components/Menu";
-import Admin from "./components/Admin";
+import AppHeader from './components/Header';
 
 export default {
-  name: "App",
-  components: {
-    AppHeader,
-    Home,
-    // Menu,
-    Admin,
-  },
+    name: 'App',
+    components: {
+        AppHeader,
+    },
 };
 </script>
 
-<style>
-</style>
+<style></style>
